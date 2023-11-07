@@ -21,12 +21,8 @@
 :url-source-maps: https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map
 
 This project is an UI bundle implementing the style of the Eclipse Semantic
-Modeling Framework (ESMF). Use the bundle to generate ESMF-styled documentation sites with {url-antora}[Antora].
-
+Modeling Framework (ESMF). One can use the bundle to generate ESMF styled documentation sites with {url-antora}[Antora].
 This ESMF UI bundle is a customized fork of the {url-project}[Antora Default UI] project. Both projects are licensed under the MPL 2.0.
-
-TIP: For image files of the **ESMF logo** (PNG, SVG, favicon), the color palette, and further visual material, +
-refer to link:docs/logo-and-color-palette/ESMF_description.md[the logo-and-color-palette guide image:docs/logo-and-color-palette/2023_ESMF_Logo_V1.1/Favicon/16x16/13_Fav_Color-16x16.png[ESMF logo small]].
 
 ////
 == Use the ESMF UI
@@ -214,17 +210,17 @@ See link:LICENSE[] to find the full license text.
 The content in this project is a customized fork from {url-project}[Antora Default UI] which is developed by OpenDevise Inc. and the Antora Project. The fork is based on the commit with the id 64b526ba9fcd22d6c37dc834126a41c65cbbbe1d dated 04.01.2021.
 
 
-== ESMF-specific changes
+== ESMF specific changes
 
-In comparison to the Antora Default UI, this fork applies the following changes:
+In comparison, to the Antora Default UI this fork applies the following changes:
 
-* Add and apply ESMF specific fonts
-* Change colors in accordance to ESMF color scheme
-* Adapt Readme
-* Add RDF/Turtle syntax highlighting
-* Disable JavaScript linting
-* Increase default body width
-* Integrate lunr.js for search (lunr.js is developed in https://github.com/olivernn/lunr.js and licensed under the MIT license)
+* add and apply ESMF specific fonts
+* change colors in accordance to ESMF color scheme
+* adapt Readme
+* add RDF/Turtle syntax highlighting
+* disable JavaScript linting
+* increase default body width
+* integrate lunr.js for search (lunr.js is developed in https://github.com/olivernn/lunr.js and licensed under the MIT license)
 
 
 
@@ -232,4 +228,4 @@ In comparison to the Antora Default UI, this fork applies the following changes:
 
 Development of Antora is led and sponsored by {url-opendevise}[OpenDevise Inc].
 
-The ESMF-specific adaptations to this ESMF UI bundle were performed by {url-bci}[Robert Bosch Manufacturing Solutions GmbH].
+The ESMF specific adaptations to this ESMF UI bundle were performed by {url-bci}[Robert Bosch Manufacturing Solutions GmbH].
